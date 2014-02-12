@@ -1,0 +1,4 @@
+jquerygeolocator
+================
+
+jQuery geolocation implementation
