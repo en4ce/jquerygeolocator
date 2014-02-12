@@ -1,0 +1,33 @@
+{
+    "name": "geolocator",
+    "title": "jQuery Geolocator",
+    "description": "This extension allows you to work with HTML5 geolocation functionality in a simple way.",
+    "keywords": [
+        "geolocation"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "IT Servicios Globales",
+        "url": "http://www.itserviciosglobales.com.ar"
+    },
+    "maintainers": [
+        {
+            "name": "Javier Trejo",
+            "email": "jtrejo@itserviciosglobales.com.ar",
+            "url": "http://www.javiertrejo.me"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/itserviciosglobales/jquerygeolocator/blob/master/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/itserviciosglobales/jquerygeolocator/issues",
+    "homepage": "https://github.com/itserviciosglobales/jquerygeolocator",
+    "docs": "https://github.com/itserviciosglobales/jquerygeolocator/wiki",
+    "download": "http://jquery.cdnzone.net/geolocator",
+    "dependencies": {
+        "jquery": ">=1.11.0"
+    }
+}
