@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Geolocation Plugin</title>
+        <script src="../js/jquery-1.11.0.min.js"></script>
+        <script src="../dist/js/jquery.geolocator.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('#test').bind('click', function(event){
+                    event.preventDefault();
+
+                    $.geolocator.getLocation(function(response){
+                        r = response;
+                        $('#debug').html('<strong>Latitud: </strong>' + response.lat + '<br /><strong>Longitud: </strong>' + response.lng);
+                    }, function(response){
+                        r = response;
+                        $('#debug').html(response.message);
+                    });  
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <input type="button" id="test" value="Obtener mi ubicación" />
+        <div id="debug"></div>
+    </body>
+</html>
